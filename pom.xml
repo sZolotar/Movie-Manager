@@ -11,6 +11,7 @@
     <properties>
         <spring.version>4.3.8.RELEASE</spring.version>
         <hibernate.version>5.2.10.Final</hibernate.version>
+        <jackson.library>2.8.8</jackson.library>
     </properties>
 
     <dependencies>
@@ -52,10 +53,23 @@
             <version>5.1.41</version>
         </dependency>
 
+        <!-- JSR-330 -->
+        <dependency>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+            <version>1</version>
+        </dependency>
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.0.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.library}</version>
         </dependency>
 
         <dependency>
