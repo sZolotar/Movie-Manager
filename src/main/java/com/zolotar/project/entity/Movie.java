@@ -1,7 +1,5 @@
 package com.zolotar.project.entity;
 
-import org.hibernate.annotations.Type;
-
 import javax.persistence.*;
 import java.util.Date;
 
@@ -24,7 +22,6 @@ public class Movie {
     private String story;
 
     @Column(name = "RELEASEDATE")
-    @Type(type = "DATE")
     private Date releaseDate;
 
     @Column(name = "URL", nullable = false)
@@ -41,7 +38,7 @@ public class Movie {
 
 
     @ManyToOne(fetch = EAGER)
-    private String genreType;
+    private Genre genreType;
 
     public Movie() {
     }
@@ -110,11 +107,11 @@ public class Movie {
         this.wantSee = wantSee;
     }
 
-    public String getGenreType() {
+    public Genre getGenreType() {
         return genreType;
     }
 
-    public void setGenreType(String genreType) {
+    public void setGenreType(Genre genreType) {
         this.genreType = genreType;
     }
 }
