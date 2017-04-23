@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/movies")
-public class MovieController {
+public class WebController {
 
     @Inject
     MovieService movieService;
