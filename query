@@ -1,0 +1,179 @@
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  1,
+  'The Matrix',
+  1,
+  'A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.',
+  '1999-10-14',
+  'http://www.imdb.com/id, title/tt0133093/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2398042102&pf_rd_r=0N5G9KN78SZNSJV8GVNE&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_18',
+  8.7,
+  true,
+  false);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  2,
+  'The Shawshank Redemptio',
+  2,
+  'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.',
+  '1994-10-14',
+  'http://www.imdb.com/id, title/tt0111161/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2398042102&pf_rd_r=0N5G9KN78SZNSJV8GVNE&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_1',
+  9.3,
+  false,
+  true);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  3,
+  'The Imitation Game',
+  3,
+  'During World War II, mathematician Alan Turing tries to crack the enigma code with help from fellow mathematicians.',
+  '2015-02-05',
+  'http://www.imdb.com/id, title/tt2084970/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2398042102&pf_rd_r=0N5G9KN78SZNSJV8GVNE&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_249',
+  8.1,
+  true,
+  false);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  4,
+  'Pirates of the Caribbean: The Curse of the Black Pearl',
+  1,
+  'Blacksmith Will Turner teams up with eccentric pirate "Captain" Jack Sparrow to save his love, the governors daughter, from Jacks former pirate allies, who are now undead.',
+  '2003-09-22',
+  'http://www.imdb.com/id, title/tt0325980/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2398042102&pf_rd_r=0N5G9KN78SZNSJV8GVNE&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_248',
+  8.0,
+  true,
+  true);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  5,
+  'Befikre',
+  4,
+  'Set in Paris, Befikre is the free-spirited, contemporary love story of Dharam and Shyra, two young people who believe in living life to the fullest.',
+  '2016-12-09',
+  'http://www.imdb.com/id, title/tt5108476/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=199YRG1ESMV2V6TN9090&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_62',
+  3.6,
+  false,
+  false);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  6,
+  'The Disappointments Room',
+  5,
+  'A mother and her young son release unimaginable horrors from the attic of their rural dream home.',
+  '2016-12-08',
+  'http://www.imdb.com/id, title/tt2364897/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=199YRG1ESMV2V6TN9090&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_97',
+  4.0,
+  false,
+  false);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  7,
+  'Incarnate',
+  6,
+  'A scientist with the ability to enter the subconscious minds of the possessed must save a young boy from the grips of a demon with powers never seen before, while facing the horrors of his past.',
+  '2016-12-01',
+  'http://www.imdb.com/id, title/tt3216348/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=199YRG1ESMV2V6TN9090&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_64',
+  5.2,
+  false,
+  false);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  8,
+  'Ben-Hur',
+  1,
+  'Judah Ben-Hur, a prince falsely accused of treason by his adopted brother, an officer in the Roman army, returns to his homeland after years at sea to seek revenge, but finds redemption.',
+  '2016-10-08',
+  'http://www.imdb.com/id, title/tt2638144/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=199YRG1ESMV2V6TN9090&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_58',
+  5.7,
+  false,
+  true);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  9,
+  'Collateral Beauty',
+  5,
+  'etreating from life after a tragedy, a man questions the universe by writing to Love, Time and Death. Receiving unexpected answers, he begins to see how these things interlock and how even loss can reveal moments of meaning and beauty.',
+  '2016-12-15',
+  'http://www.imdb.com/id, title/tt2638144/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=199YRG1ESMV2V6TN9090&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_58',
+  5.9,
+  false,
+  false);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  10,
+  'Rogue One',
+  1,
+  'The Rebel Alliance makes a risky move to steal the plans for the Death Star, setting up the epic saga to follow.',
+  '2016-12-15',
+  'http://www.imdb.com/id, title/tt3748528/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2723455222&pf_rd_r=0SWETY84D941VQFXFEJ7&pf_rd_s=right-7&pf_rd_t=15061&pf_rd_i=homepage&ref_=hm_cht_t0',
+  8.2,
+  false,
+  true);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  11,
+  'Assassins Creede',
+  1,
+  'When Callum Lynch explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society.',
+  '2017-01-05',
+  'http://www.imdb.com/id, title/tt2094766',
+  7.3,
+  false,
+  true);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  12,
+  'Logan',
+  1,
+  'In the near future, an aging Wolverine and Professor X must protect a young female clone of Wolverine from an evil organization led by Nathanial Essex.',
+  '2017-03-02',
+  'http://www.imdb.com/id, title/tt3315342',
+  0.0,
+  false,
+  true);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  13,
+  'War for the Planet of the Apes',
+  1,
+  'A nation of genetically evolved apes led by Caesar become embroiled in a battle with an army of humans.',
+  '2017-07-13',
+  'http://www.imdb.com/id, title/tt3450958',
+  0.0,
+  false,
+  true);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  14,
+  'Guardians of the Galaxy Vol. 2',
+  1,
+  'Set to the backdrop of Awesome Mixtape #2, Guardians of the Galaxy Vol. 2 continues the teams adventures as they unravel the mystery of Peter Quills true parentage.',
+  '2017-05-04',
+  'http://www.imdb.com/id, title/tt3896198',
+  0.0,
+  false,
+  true);
+
+INSERT INTO movie (id, title, genretype_id, story, releasedate, url, rating, haveSeen, wantSee)
+VALUES (
+  15,
+  'Justice League',
+  1,
+  'Fueled by his restored faith in humanity and inspired by Supermans selfless act, Bruce Wayne enlists the help of his newfound ally, Diana Prince, to face an even greater enemy.',
+  '2017-11-16',
+  'http://www.imdb.com/id, title/tt0974015',
+  0.0,
+  false,
+  true);
