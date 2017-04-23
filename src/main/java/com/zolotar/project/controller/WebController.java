@@ -10,7 +10,7 @@ import javax.inject.Inject;
 import java.util.List;
 
 @RestController
-@RequestMapping("/movies")
+@RequestMapping("/json")
 public class WebController {
 
     @Inject
