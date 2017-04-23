@@ -32,6 +32,6 @@ public class MovieDaoImpl implements MovieDao {
     }
 
     public List<Movie> findAll() {
-        return getSessionFactory().getCurrentSession().createQuery("SELECT m FROM movie m").list();
+        return getSessionFactory().getCurrentSession().createQuery("FROM Movie").list();
     }
 }
